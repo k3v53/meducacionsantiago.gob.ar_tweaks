@@ -13,25 +13,82 @@
 	--teal: #20c997;
 	--cyan: #008196;
 	--white: #fff;
+	--gray-light: #ababab;
 	--gray: #6c757d;
 	--gray-dark: #343a40;
-	--primary: #353535;
-	--secondary: #ced4da;
+	--gray-darker: #282d32;
+	--primary: #353535 !important;
+	--secondary: #ced4da !important;
+	--itse-primary:#68c4a7 !important;
 	--success: #357a32;
 	--info: #008196;
 	--warning: #f0ad4e;
 	--danger: #ca3120;
 	--light: #f8f9fa;
 	--dark: #343a40;
-	--breakpoint-xs: 0;
+	/* --breakpoint-xs: 0;
 	--breakpoint-sm: 576px;
 	--breakpoint-md: 768px;
 	--breakpoint-lg: 992px;
 	--breakpoint-xl: 1200px;
 	--font-family-sans-serif: "Poppins", sans-serif;
 	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-		"Liberation Mono", "Courier New", monospace;
+		"Liberation Mono", "Courier New", monospace; */
+}
+a {
+	color: var(--gray);
+}
+body {
+	color: var(--light) !important;
 }
 #top-footer {
-	background-color: black;
+	background-color: var(--dark);
+	color: var(--secondary) !important;
+}
+.navbar {
+	background-color: var(--itse-primary) !important;
+}
+h1,
+.page-header-headings {
+	color: var(--gray-light) !important;
+}
+#page-header {
+	background-color: var(--gray-darker);
+}
+#region-main {
+	overflow: hidden !important;
+}
+#page-content,
+#page {
+	background-color: var(--gray-dark) !important;
+}
+.sectionname {
+  background: var(--gray-dark) !important;
+	border-color: var(--gray-darker) !important;
+}
+.sectionname > span > a {
+  color:var(--light) !important;
+
+}
+#nav-drawer {
+	background-color: var(--itse-primary) !important;
+}
+.list-group-item,
+.list-group-item-action {
+	color: var(--light) !important;
+  background-color: var(--gray-dark) !important;
+}
+.contact > h1,
+.contact > h2,
+.contact > h3,
+.contact > h4,
+.contact > h5,
+.contact > h6 {
+	color: var(--secondary) !important;
+}
+.card-body {
+	background-color: var(--primary);
+}
+.card {
+	border: solid 0.25rem var(--gray-darker) !important;
 }
