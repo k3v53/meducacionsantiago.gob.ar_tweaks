@@ -19,7 +19,7 @@
 	--gray-darker: #282d32;
 	--primary: #353535 !important;
 	--secondary: #ced4da !important;
-	--itse-primary:#68c4a7 !important;
+	--itse-primary: #68c4a7 !important;
 	--success: #357a32;
 	--info: #008196;
 	--warning: #f0ad4e;
@@ -63,12 +63,11 @@ h1,
 	background-color: var(--gray-dark) !important;
 }
 .sectionname {
-  background: var(--gray-dark) !important;
+	background: var(--gray-dark) !important;
 	border-color: var(--gray-darker) !important;
 }
 .sectionname > span > a {
-  color:var(--light) !important;
-
+	color: var(--light) !important;
 }
 #nav-drawer {
 	background-color: var(--gray-dark) !important;
@@ -76,7 +75,7 @@ h1,
 .list-group-item,
 .list-group-item-action {
 	color: var(--light) !important;
-  background-color: var(--gray-dark) !important;
+	background-color: var(--gray-dark) !important;
 }
 .contact > h1,
 .contact > h2,
@@ -91,4 +90,12 @@ h1,
 }
 .card {
 	border: solid 0.25rem var(--gray-darker) !important;
+}
+.breadcrumb li > * {
+	background-color: var(--gray-dark) !important;
+	border-color: var(--gray) !important;
+	color: var(--light) !important;
+}
+.breadcrumb li::after {
+	border-left-color: var(--gray-darker) !important;
 }
