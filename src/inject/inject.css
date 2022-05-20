@@ -48,6 +48,9 @@ body {
 .navbar {
 	background-color: var(--itse-primary) !important;
 }
+.nav-link {
+	color: var(--light) !important;
+}
 h1,
 .page-header-headings {
 	color: var(--gray-light) !important;
@@ -72,6 +75,9 @@ h1,
 #nav-drawer {
 	background-color: var(--gray-dark) !important;
 }
+.hover-tooltip-container,
+.normal-icon,
+.slicon-settings,
 .list-group-item,
 .list-group-item-action {
 	color: var(--light) !important;
@@ -98,4 +104,25 @@ h1,
 }
 .breadcrumb li::after {
 	border-left-color: var(--gray-darker) !important;
+}
+.icon {
+	color: var(--light) !important;
+}
+.dropdown-toggle::after{
+	color: var(--light) !important;
+}
+.popover-region-container{
+	background-color: var(--primary) !important;
+	border: var(--itse-primary) !important;
+}
+.content-item-container {
+	background-color: var(--gray-darker) !important;
+	border-color: var(--gray) !important;
+}
+.popover-region-footer-container{
+	background-color: var(--gray-darker) !important;
+	border-color: var(--primary) !important;
+}
+.popover-region-header-text{
+	color: var(--light) !important;
 }
