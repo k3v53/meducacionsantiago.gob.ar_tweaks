@@ -71,7 +71,7 @@ h1,
 
 }
 #nav-drawer {
-	background-color: var(--itse-primary) !important;
+	background-color: var(--gray-dark) !important;
 }
 .list-group-item,
 .list-group-item-action {
