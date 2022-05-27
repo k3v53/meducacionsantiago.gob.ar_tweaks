@@ -72,7 +72,8 @@ h1,
 .sectionname > span > a {
 	color: var(--light) !important;
 }
-#nav-drawer {
+#nav-drawer,
+#nav-drawer-footer {
 	background-color: var(--gray-dark) !important;
 }
 .hover-tooltip-container,
@@ -126,3 +127,8 @@ h1,
 .popover-region-header-text{
 	color: var(--light) !important;
 }
+.drawer-toggle {
+	background-color: #47b894 !important;
+}
+#nav-drawer-footer{
+background-color:var(--dark);}
